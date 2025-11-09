@@ -12,7 +12,7 @@ RUN npm ci --omit=dev
 COPY . .
 
 # Make port 8081 available
-EXPOSE 8081
+EXPOSE 8080
 
 # Define the command to run the app
 CMD ["node", "app.js"]
