@@ -1,0 +1,13 @@
+# Git and IDE specific
+.git
+.idea
+.gitignore
+
+# Dependencies
+node_modules
+
+# Docker specific
+Dockerfile
+
+# Documentation
+README.md
